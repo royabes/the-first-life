@@ -434,6 +434,11 @@ hr.section-break::before {
 /* Chapter headings */
 .chapter-heading {
     margin-bottom: calc(var(--spacing-unit) * 3);
+    width: var(--content-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    box-sizing: border-box;
 }
 
 .chapter-heading .chapter-number {
